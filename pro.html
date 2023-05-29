@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap project</title>
+    <!--conecting bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--css file connection-->
+    <link rel="stylesheet" href="pro.css">
+    <!--icon embading-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark"  style="background-color: rgb(236, 69, 9);">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">Bootstrap PRO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Client</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--sliding IMG-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--text part-->
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-2 mb-3">Lorem ispsum dolor, sit amet consectrtur adipisicing slit.<br>
+                Aliquid assumenda iusto cupiditate.</h3>
+            </div>
+        </div>
+        <!--feature-->
+        <div class="row justify-content-evenly text-center pt-3 pb-3">
+            <div class="col-md-3 mt-5 ">
+                <h1><i class="bi bi-file-code-fill text-primary"></i></h1> 
+                <h4>Build for devlopers</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sit odio maiores illum tenetur alias iste harum, tempore illo sequi estLorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sit odio maiores illum tenetur alias iste harum, tempore illo sequi est</p>
+            </div>
+            <div class="col-md-3 mt-5">
+               
+                <h1><i class="bi bi-file-code-fill text-primary"></i></h1> 
+                <h4>Build for devlopers</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sit odio maiores illum tenetur alias iste harum, tempore illo sequi est</p>
+            </div>
+            <div class="col-md-3 mt-5">
+               <h1><i class="bi bi-file-code-fill text-primary"></i></h1> 
+                <h4>Build for devlopers</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sit odio maiores illum tenetur alias iste harum, tempore illo sequi est</p>
+            </div>
+      </div>
+      <!-- image adding-->
+      <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div class="col-md-5">
+                <img src="img1.jpg" class="img-fluid custom-img" alt="...">
+            </div>
+            <div class="col-md-5">
+                <h5 class="pt-3">Website Devlopment</h5>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 80%"></div>
+                  </div>
+                  <h5 class="pt-3">App Devlopment</h5>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                  <h5 class="pt-3">Software Devlopment</h5>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+                  <h5 class="pt-3">SEO</h5>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+                  <h5 class="pt-3">Marketing</h5>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--contact form and map-->
+    <div class="container-fluid pt-5">
+        <div class="row justify-content-evenly bg-secondary pt-5">
+            <div class="col-md-5">
+                <form>
+                    <h3>Contact Form</h3>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary bg-danger">Submit</button>
+                  </form>
+            </div>
+            <div class="col-md-5">
+                  <h3>Address</h3>
+                  <p>satyam pg near chakhaikm<br>syham inclave 14001<br>phagwara</p>
+            </div>
+        </div>
+    </div>
+    <!--faq-->
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>FAQ</h1>
+            </div>
+            <div class="col-12">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            Accordion Item #1
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+       
+      </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid pt-5">
+      <div class="row justify-content-evenly bg-black border-2 pt-3 pb-5">
+          <div class="col-md-3 pt-4">
+            <h3 style="color: white;">Ayush Raj</h3>
+            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, laborum quam molestias cumque dolore praesentium libero nemo corporis hic aperiam beatae vel commodi perspiciatis obcaecati quibusdam dicta animi eius ipsum.</p>
+          </div>
+          <div class="col-md-3 pt-4">
+            <h3 style="color: white;">Important links</h3>
+            <a href="#" style="color: white; text-decoration: none;">Home</a><br>
+           <a href="#" style="color: white;text-decoration: none;">About Us</a><br>
+           <a href="#" style="color: white;text-decoration: none;">Contact Us</a><br>
+          <a href="#"style="color: white;text-decoration: none;">Our Team</a><br>
+          <a href="#"style="color: white;text-decoration: none;">Our CLient</a>
+     
+          </div>
+          <div class="col-md-3 pt-4">
+            <h3 style="color: white;"> contact Us</h3>
+            <p style="color: white;">Satyam Pg<br>Shyam Inclave near Chak<br>Phagwara 14001</p>
+          </div>
+      </div>
+      <div class="row bg-secondary text-white text-center">
+        <div class="col-12">
+          <p>Copy right reservs</p>
+        </div>
+      </div>
+    </div>
+
+    
+     
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
