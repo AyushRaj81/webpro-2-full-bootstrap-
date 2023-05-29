@@ -26,5 +26,7 @@ Technologies Used
 The font page is built using the following technologies and tools:
 
 HTML
+
 CSS
+
 Bootstrap
